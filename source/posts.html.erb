@@ -1,0 +1,7 @@
+---
+---
+<ol>
+    <% blog.articles[0...10].each do |article| %>
+      <li class="tk-jaf-facitweb" style="font-weight: 700"><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <% end %>
+  </ol>
