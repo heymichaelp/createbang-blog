@@ -4,6 +4,8 @@
 
 # Time.zone = "UTC"
 
+activate :directory_indexes
+
 activate :blog do |blog|
   # blog.prefix = "blog"
   blog.permalink = ":title"
